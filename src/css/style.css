@@ -132,3 +132,69 @@ h2.title {
     margin: 0 auto;
     margin-top: 13px;
 }
+
+.plan {
+    height: 604px;
+    background-color: #efefef;
+
+    padding-top: 85px;
+    padding-bottom: 75px;
+}
+
+.plan_header {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400;
+    color: #252525;
+    text-transform: uppercase;
+    text-align: center;     
+}
+
+.plan_divider {
+    width: 217px;
+    height: 4px;
+
+    margin: 0 auto;
+    margin-top: 18px;
+    
+    background-color: #f9bf3b;
+}
+
+.plan_subheader {
+    font-size: 23px;
+    font-family: "Roboto";
+    color: #4a4a4a;
+    font-weight: 400;
+    text-align: center;
+
+    margin-top: 17px;
+}
+
+.plan_wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    margin-top: 45px;
+}
+
+.plan_item {
+    width: 339px;
+
+    margin-bottom: 55px;
+}
+
+.plan_img {
+    width: 100%;
+}
+
+.plan_descr {
+    margin-top: 33px;
+
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #4a4a4a;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+}
