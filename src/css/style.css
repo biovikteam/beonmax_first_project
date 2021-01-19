@@ -134,7 +134,7 @@ h2.title {
 }
 
 .plan {
-    height: 604px;
+    min-height: 604px;
     background-color: #efefef;
 
     padding-top: 85px;
@@ -150,7 +150,7 @@ h2.title {
     text-align: center;     
 }
 
-.plan_divider {
+.divider {
     width: 217px;
     height: 4px;
 
@@ -180,7 +180,6 @@ h2.title {
 
 .plan_item {
     width: 339px;
-
     margin-bottom: 55px;
 }
 
@@ -197,4 +196,120 @@ h2.title {
     line-height: 21px;
     font-weight: 300;
     text-align: center;
+}
+
+.optimization {
+    min-height: 550px;
+
+    padding-top: 102px;
+    padding-bottom: 107px;
+
+    background-image: url("../img/bg/woman-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: -140px 54px;
+}
+
+.optimization .container {
+    padding-left: 391px;
+}
+
+.optimization_header {
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+    color: #299cbd;
+    text-transform: uppercase;
+    text-align: left;
+    
+    margin-bottom: 25px;
+}
+
+.optimization_text p {
+    margin: 0;
+    margin-bottom: 15px;
+
+    font-family: "Roboto Light";
+    font-weight: 300;
+    font-size: 17px;
+    color: #4a4a4a;
+    line-height: 27px;
+    text-align: justify;
+}
+
+.optimization_text span {
+    font-family: "Roboto Bold";
+    font-weight: 700;
+}
+
+.finish {
+    min-height: 447px;
+
+    padding-top: 86px;
+    padding-bottom: 79px;
+
+    background-color: #352827;
+    background-image: url("../img/bg/finish-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.finish_header {
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+.finish_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish_item {
+    max-width: 204px;
+}
+
+.finish_icon {
+    width: 115px;
+    height: 115px;
+
+    margin: 0 auto;
+    margin-top: 40px;
+
+    border-radius: 50%;
+
+    background-color: #b4e2ff;
+    background-image: url("../icons/final/1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.finish_item:nth-child(2) .finish_icon {
+    background-image: url("../icons/final/2.png");
+}
+
+.finish_item:nth-child(3) .finish_icon {
+    background-image: url("../icons/final/3.png");
+}
+
+.finish_item:nth-child(4) .finish_icon {
+    background-image: url("../icons/final/4.png");
+}
+
+.finish_item:nth-child(5) .finish_icon {
+    background-image: url("../icons/final/5.png");
+}
+
+.finish_descr {
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 300;
+    color: #efefef;
+    line-height: 20px;
+    text-align: center;
+
+    margin-top: 25px;
 }
