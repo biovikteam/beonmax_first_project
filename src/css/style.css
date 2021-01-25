@@ -313,3 +313,92 @@ h2.title {
 
     margin-top: 25px;
 }
+
+.gift {
+    padding-top: 85px;
+    padding-bottom: 85px;
+
+    background-color: #efefef;
+}
+
+.gift_img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.gift_text {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: #252525;
+    line-height: 1.433;
+    text-align: center;
+}
+
+.first {
+    padding-top: 85px;
+    padding-bottom: 65px;
+}
+
+.first_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.first_text1 {
+    font-size: 30px;
+    font-family: "Roboto";
+    color: #252525;
+    text-transform: uppercase;
+    line-height: 0.4;
+    text-align: center;
+
+    margin-top: 45px;
+}
+
+.first_text2 {
+    font-size: 36px;
+    font-family: "Roboto";
+    color: #299cbd;
+    text-transform: uppercase;
+    line-height: 0.333;
+    text-align: center;
+
+    margin-top: 40px;
+}
+
+.first_text3 {
+    font-size: 23px;
+    font-family: "Roboto";
+    color: #4a4a4a;
+    line-height: 0.87;
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+footer {
+    padding-top: 65px;
+    padding-bottom: 70px;
+    background-color: #1a1a1a;
+}
+
+.footer_contacts {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #888888;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.footer_contacts a {
+    color: #888888;
+    text-decoration: none;
+    border-bottom: 1px solid #888888;
+}
+
+.footer_contacts a:hover {
+    color: #eb0d0d;
+    /* border-bottom: 1px solid #eb0d0d; */
+    border-bottom: none;
+}
